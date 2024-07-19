@@ -3,12 +3,12 @@
 ## Instalación
 
 ```bash
-npm install heytextual-javascript
+npm install heytextual
 ```
 
 ```javascript
-const redacted = require('heytextual-javascript');
-const client = redacted('your_api_key');
+const heytextual = require('heytextual');
+const client = heytextual('your_api_key');
 
 (async () => {
   const data = await client.extract('path/to/file', 'TEMPLATEID');
