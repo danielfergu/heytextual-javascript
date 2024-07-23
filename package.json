@@ -1,6 +1,6 @@
 {
   "name": "heytextual",
-  "version": "0.1.3",
+  "version": "0.1.10",
   "description": "JavaScript SDK for the HeyTextual API",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/danielfergu/heytextual-javascript#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.28.0",
     "form-data": "^3.0.0"
   },
   "devDependencies": {
